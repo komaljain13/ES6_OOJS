@@ -1,0 +1,19 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.0.12",
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
